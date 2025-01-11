@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;531;600;700;800;900&family=Lobster&family=Montserrat:wght@1,500;600;700&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+
+    <title>Order Fresh Vegetables</title>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+        .form-check-label {
+            margin-left: 10px;
+
+        
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-responsive" src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="farm.html">Farms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="orders.html">Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+
+    <div class="container mt-4" style="width: 800px; background-image: url(img/img2.jpg);">
+        <h2 class="text-center" >Order Your Fresh Vegetables</h2>
+    
+        
+        
+            <form id="orderForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" placeholder="username" >
+            </div>
+    
+            <div class="form-group">
+                <label for="vegetableSelect">Select Vegetables:</label>
+                <select class="form-control" id="Vegetable" >
+                    <option value="">Choose...</option>
+                    <option value="tomatoes">Tomatoes</option>
+                    <option value="carrots">Carrots</option>
+                    <option value="lettuce">Lettuce</option>
+                    <option value="cucumbers">Cucumbers</option>
+                    <option value="peppers">Peppers</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label for="quantity">Quantity (in KG):</label>
+                <input type="number" class="form-control" id="quantity" placeholder="Quantity" >
+            </div>
+    
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" class="form-control" id="price" placeholder="Price" >
+            </div>
+    
+            <div class="form-group">
+                <label for="Delivery">Conveyance:</label>
+                <input type="text" class="form-control" id="conveyance" placeholder="Pickup / Delivery" >
+            </div>
+    
+            <div class="form-group" id="addressDiv">
+                <label for="address">Address:</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address">
+            </div>
+    
+            <button type="submit" class="btn btn-primary btn-block" id="placeorder">Place Order</button>
+        </form>
+    
+       
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Vegetable</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Conveyance</th>
+                    <th>Address</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="ordersList">
+               
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+  
+     
+</body>
+</html>

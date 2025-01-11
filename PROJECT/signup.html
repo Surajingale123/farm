@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;531;600;700;800;900&family=Lobster&family=Montserrat:wght@1,500;600;700&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
+      <!-- <link href="css/ekko-lightbox.css"> -->
+      <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+      <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    
+  </head>
+<body class="signup-body">
+
+  <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-responsive" src="img/logo.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="farm.html">Farms</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="orders.html">Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign up </a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login </a>
+          </li>       
+        </ul>
+      </div>  
+
+    </div>
+    <!-- /container -->
+   
+  </nav>
+ 
+
+
+    <div class=" signup-container" style="background: url(img/cont.avif); ">
+        <h2>Signup</h2>
+        <form action="signup.html" method="post">
+          <div class="input-group-sign">
+           
+            <input type="text" placeholder="First Name" required />
+          </div>
+          <div class="input-group-sign">
+          
+            <input type="text" placeholder="Last Name" required />
+          </div>
+          <div class="input-group-sign">
+          
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-group-sign">
+         
+            <input type="password" placeholder="Password" required />
+          </div>
+          <button type="button" id="signupButton"  >Signup</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Sign in now</a></p>
+      </div>
+
+
+      <script>
+         document.getElementById("signupButton").addEventListener("click", function() {
+      
+      window.location.href = "login.html";});
+      </script>
+    
+</body>
+</html>

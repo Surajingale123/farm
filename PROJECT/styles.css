@@ -1,0 +1,202 @@
+.bg-custom-purple {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.mentor-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p.lead{
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.container{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.rating {
+    font-size: 1.25rem;
+    color: #ffcc00;
+}
+ .star {
+    font-size: 1.5rem;
+}
+.mentor-card {
+    height: 100%; 
+}
+.mentor-card-body {
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+/* schedule */
+
+
+
+/* contact */
+
+
+    /* signup */
+
+    .signup-body {
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #f9f9f9;
+        background: url(Images/sky.webp);
+        background-size: cover;
+      }
+      .signup-container {
+        width: 380px;
+        padding: 20px;
+        margin-top: 60px;
+        margin-bottom: 10rem;
+        margin-left: 30rem;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white background */
+        backdrop-filter: blur(10px); /* Blur background for a frosted glass effect */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+      .signup-container:hover {
+        background-color: rgba(255, 255, 255, 0.25); /* Increases opacity on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+      .signup-container h2 {
+        margin-bottom: 20px;
+        font-size: 2.2em;
+      }
+      .input-group-sign {
+        position: relative;
+        margin: 10px 0;
+      }
+      .input-group-sign input {
+        width: 100%;
+        padding: 20px 10px 15px 35px; /* Left padding for icon */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .input-group-sign i {
+        position: absolute;
+        top: 65%;
+        left: 10px;
+        transform: translateY(-50%);
+        color: black;
+      }
+      .signup-container form button {
+        width: 100%;
+        padding: 15px;
+        background: #4d9d4d;
+        color: white;
+        border-color: #4d9d4d;
+        border-radius: 5px;
+        font-size: 18px;
+        border-style:solid ;
+        cursor: pointer;
+        margin-top: 10px;
+        transition:  background 0.4s;
+      }
+      .signup-container form button:hover {
+        background: white;
+        color: #4d9d4d;
+
+      }
+      .signup-container p {
+        margin-top: 20px;
+        color: #555;
+        margin-right: 6px;
+      }
+      .signup-container p a {
+        color: #4d9d4d;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .signup-container p a:hover {
+        text-decoration: underline;
+      }
+    
+      /* login */
+
+      .login-body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: url(Images/loginn.avif);
+         background-size: cover; 
+        
+      }
+      .login-container {
+        text-align: center;
+        width: 320px;
+        padding: 20px;
+        margin-top: 60px;
+        margin-bottom: 10rem;
+        margin-left: 30rem;
+         border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+    
+      .login-container:hover {
+        background-color: rgba(255, 255, 255, 0.25); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+      .login-container h2 {
+        margin-bottom: 20px;
+        font-size: 2.3em;
+      }
+      .input-group-login {
+        position: relative;
+        margin: 10px 0;
+      }
+      .input-group-login input {
+        width: 100%;
+        padding: 35px 10px 15px 35px; /* Extra left padding for the icon */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .input-group-login i {
+        position: absolute;
+        top: 60%;
+        left: 10px;
+        transform: translateY(-50%);
+        color: black;
+      }
+      .login-container form button {
+        width: 100%;
+        padding: 15px;
+        background: #4d9d4d;
+        color: white;
+        border-color: #4d9d4d;
+        border-radius: 5px;
+        font-size: 18px;
+        border-style:solid ;
+        cursor: pointer;
+        margin-top: 10px;
+        transition:  background 0.4s;
+      }
+      .login-container form button:hover {
+        background: white;
+        color: #4d9d4d;
+      }
+      
+    
+
+
+
+    
+    
